@@ -1,0 +1,129 @@
+aid: 1x-technologies
+name: 1X Technologies
+description: >-
+  1X Technologies is a humanoid robotics company headquartered in Palo Alto,
+  California with vertically integrated manufacturing at the NEO Factory in
+  Hayward. Its product line includes EVE (an earlier wheeled-base humanoid
+  used for commercial pilots) and NEO, the company's bipedal consumer
+  humanoid marketed as the "world's first consumer-ready humanoid robot for
+  the home," with NEO Beta and NEO Gamma development variants and a
+  consumer pre-order program. 1X is an OpenAI portfolio company and
+  collaborates with NVIDIA on training-data generation and on-board model
+  execution. The company maintains a public GitHub organization
+  (github.com/1x-technologies) with 24 repositories, most notably 1xgpt — a
+  world-modeling challenge for humanoid robots — alongside Halodi robot URDF
+  models, ROS2 examples for the EVE robot, and robotics infrastructure tools.
+  1X does not publish a public hosted API or developer SDK; engagement is
+  via product purchase, research challenges, and open-source code.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - Humanoid Robots
+  - Consumer Robotics
+  - Home Robotics
+  - Embodied AI
+  - World Models
+  - NEO
+  - EVE
+  - ROS2
+  - Manufacturing
+  - Open Source
+  - 1xgpt
+url: https://raw.githubusercontent.com/api-evangelist/1x-technologies/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: 1x-technologies:1xgpt-world-model-challenge
+    name: 1X World Model Challenge (1xgpt)
+    description: >-
+      1xgpt is 1X Technologies' open-source world-modeling challenge for
+      humanoid robots, providing dataset tooling, baseline code, and
+      evaluation utilities for training and benchmarking generative video and
+      world models on humanoid-robot data. It is distributed as a Python
+      research codebase under Apache-2.0 on GitHub rather than as a hosted
+      API; participants run the code locally to train and evaluate models.
+    humanURL: https://github.com/1x-technologies/1xgpt
+    baseURL: https://github.com/1x-technologies/1xgpt
+    tags:
+      - World Models
+      - Humanoid Robots
+      - Generative Video
+      - Benchmark
+      - Open Source
+      - Research Challenge
+      - Python
+    properties:
+      - type: Repository
+        url: https://github.com/1x-technologies/1xgpt
+      - type: License
+        url: https://github.com/1x-technologies/1xgpt/blob/main/LICENSE
+      - type: README
+        url: https://github.com/1x-technologies/1xgpt/blob/main/README.md
+      - type: HuggingFaceDataset
+        url: https://huggingface.co/1x-technologies
+    features:
+      - name: Open Dataset
+        description: Robot-collected video data released for training world models.
+      - name: Baseline Models
+        description: Reference world-model implementations to benchmark against.
+      - name: Evaluation Tooling
+        description: Scripts and metrics for scoring generated future frames.
+      - name: Tokenizer
+        description: Provided tokenizers for converting frames to discrete tokens.
+      - name: Reproducible Recipes
+        description: Training scripts and configurations for reproducible runs.
+      - name: Apache 2.0 License
+        description: Permissive license enabling research and commercial use.
+    useCases:
+      - name: World Model Research
+        description: Train generative video models on real humanoid-robot data.
+      - name: Benchmarking
+        description: Compare new model architectures against published baselines.
+      - name: Robot Learning Curriculum
+        description: Use as teaching material for embodied AI courses.
+      - name: Sim-to-Real Studies
+        description: Study learned dynamics against real robot data.
+    integrations:
+      - name: PyTorch
+      - name: Hugging Face Hub
+      - name: Hugging Face Datasets
+      - name: NVIDIA CUDA
+      - name: Weights and Biases
+      - name: GitHub Actions
+    authentication:
+      - type: None
+        description: Public open-source repository; no authentication required.
+common:
+  - type: Website
+    url: https://www.1x.tech
+  - type: Product
+    url: https://www.1x.tech/neo
+  - type: AI
+    url: https://www.1x.tech/ai
+  - type: Factory
+    url: https://www.1x.tech/factory
+  - type: Discover
+    url: https://www.1x.tech/discover
+  - type: Careers
+    url: https://www.1x.tech/careers
+  - type: Company
+    url: https://www.1x.tech/company
+  - type: Contact
+    url: https://www.1x.tech/contact
+  - type: GitHubOrganization
+    url: https://github.com/1x-technologies
+  - type: HuggingFace
+    url: https://huggingface.co/1x-technologies
+  - type: Twitter
+    url: https://twitter.com/1x_tech
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/1x-tech
+  - type: YouTube
+    url: https://www.youtube.com/@1x-tech
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
