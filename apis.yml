@@ -98,6 +98,8 @@ apis:
       - type: None
         description: Public open-source repository; no authentication required.
 common:
+  - type: DomainSecurity
+    url: security/1x-technologies-domain-security.yml
   - type: Website
     url: https://www.1x.tech
   - type: Product
@@ -124,6 +126,8 @@ common:
     url: https://www.linkedin.com/company/1x-tech
   - type: YouTube
     url: https://www.youtube.com/@1x-tech
+  - url: https://www.1x.tech/discover
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
