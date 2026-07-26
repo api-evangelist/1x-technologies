@@ -16,9 +16,21 @@ description: >-
   1X does not publish a public hosted API or developer SDK; engagement is
   via product purchase, research challenges, and open-source code.
 type: Index
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1x-technologies.png
 tags:
   - Robotics
   - Humanoid Robots
@@ -34,69 +46,9 @@ tags:
   - 1xgpt
 url: https://raw.githubusercontent.com/api-evangelist/1x-technologies/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.20'
-apis:
-  - aid: 1x-technologies:1xgpt-world-model-challenge
-    name: 1X World Model Challenge (1xgpt)
-    description: >-
-      1xgpt is 1X Technologies' open-source world-modeling challenge for
-      humanoid robots, providing dataset tooling, baseline code, and
-      evaluation utilities for training and benchmarking generative video and
-      world models on humanoid-robot data. It is distributed as a Python
-      research codebase under Apache-2.0 on GitHub rather than as a hosted
-      API; participants run the code locally to train and evaluate models.
-    humanURL: https://github.com/1x-technologies/1xgpt
-    baseURL: https://github.com/1x-technologies/1xgpt
-    tags:
-      - World Models
-      - Humanoid Robots
-      - Generative Video
-      - Benchmark
-      - Open Source
-      - Research Challenge
-      - Python
-    properties:
-      - type: Repository
-        url: https://github.com/1x-technologies/1xgpt
-      - type: License
-        url: https://github.com/1x-technologies/1xgpt/blob/main/LICENSE
-      - type: README
-        url: https://github.com/1x-technologies/1xgpt/blob/main/README.md
-      - type: HuggingFaceDataset
-        url: https://huggingface.co/1x-technologies
-    features:
-      - name: Open Dataset
-        description: Robot-collected video data released for training world models.
-      - name: Baseline Models
-        description: Reference world-model implementations to benchmark against.
-      - name: Evaluation Tooling
-        description: Scripts and metrics for scoring generated future frames.
-      - name: Tokenizer
-        description: Provided tokenizers for converting frames to discrete tokens.
-      - name: Reproducible Recipes
-        description: Training scripts and configurations for reproducible runs.
-      - name: Apache 2.0 License
-        description: Permissive license enabling research and commercial use.
-    useCases:
-      - name: World Model Research
-        description: Train generative video models on real humanoid-robot data.
-      - name: Benchmarking
-        description: Compare new model architectures against published baselines.
-      - name: Robot Learning Curriculum
-        description: Use as teaching material for embodied AI courses.
-      - name: Sim-to-Real Studies
-        description: Study learned dynamics against real robot data.
-    integrations:
-      - name: PyTorch
-      - name: Hugging Face Hub
-      - name: Hugging Face Datasets
-      - name: NVIDIA CUDA
-      - name: Weights and Biases
-      - name: GitHub Actions
-    authentication:
-      - type: None
-        description: Public open-source repository; no authentication required.
+apis: []
 common:
   - type: DomainSecurity
     url: security/1x-technologies-domain-security.yml
@@ -128,6 +80,8 @@ common:
     url: https://www.youtube.com/@1x-tech
   - url: https://www.1x.tech/discover
     type: Blog
+  - type: ProductPage
+    url: https://github.com/1x-technologies/1xgpt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
