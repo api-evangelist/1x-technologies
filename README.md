@@ -1,4 +1,4 @@
-# 1x-technologies
+# 1X Technologies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1X Technologies — humanoid robots (EVE, NEO)
+1X Technologies is a humanoid robotics company headquartered in Palo Alto, California with vertically integrated manufacturing at the NEO Factory in Hayward. Its product line includes EVE (an earlier wheeled-base humanoid used for commercial pilots) and NEO, the company's bipedal consumer humanoid marketed as the "world's first consumer-ready humanoid robot for the home," with NEO Beta and NEO Gamma development variants and a consumer pre-order program. 1X is an OpenAI portfolio company and collaborates with NVIDIA on training-data generation and on-board model execution. The company maintains a public GitHub organization (github.com/1x-technologies) with 24 repositories, most notably 1xgpt — a world-modeling challenge for humanoid robots — alongside Halodi robot URDF models, ROS2 examples for the EVE robot, and robotics infrastructure tools. 1X does not publish a public hosted API or developer SDK; engagement is via product purchase, research challenges, and open-source code.
+
+**Areas:** Robotics · Humanoid Robots · Consumer Robotics · Home Robotics · Embodied AI · World Models · NEO · EVE · ROS 2 · Manufacturing · Open Source · 1xgpt
+
+## 1X Technologies on APIs.io
+
+Everything profiled for 1X Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/1x-technologies/](https://apis.io/providers/1x-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [1X Technologies Domain Security](https://apis.io/security/1x-technologies/1x-technologies-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [1X Technologies Plans Pricing](https://apis.io/plans/1x-technologies/1x-technologies-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [1X Technologies Rate Limits](https://apis.io/rate-limits/1x-technologies/1x-technologies-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [1X Technologies Finops](https://apis.io/finops/1x-technologies/1x-technologies-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.1x.tech)
+- [Blog](https://www.1x.tech/discover)
+- [GitHub](https://github.com/1x-technologies)
+
+## API Evangelist rating
+
+**Kin Score 6.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/1x-technologies/](https://apis.io/providers/1x-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 1X Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/1x-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
